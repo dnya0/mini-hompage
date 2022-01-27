@@ -1,0 +1,61 @@
+.guest-container {
+    width: 560px;
+    height: 445px;
+    
+    overflow: auto;
+}
+
+.guest-box {
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+.guest-info {
+    font-family: 'CookieRun-Regular';
+    font-size: 12px;
+
+    margin-top: 5px;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    margin-right: 10px;
+
+    vertical-align: middle;
+
+    border: 1px solid #EAEAEA;
+    border-radius: 9px;
+    background-color: #EAEAEA;
+}
+
+.guest-box-content {
+    display: flex;
+    align-items: center;
+    margin: 12px;
+}
+
+.guest-image {
+    flex: 0.3;
+    height: 8rem;
+    background-size: cover;
+  
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.guest-box-text {
+    flex: 0.7;
+    font-family: 'KyoboHandwriting2020A';
+    font-size: 13px;
+
+    margin-left: 12px;
+    margin-right: 12px;
+}
+
+.background-1 {
+    background-image: url("./images/background.png");
+}
+
+.guest-image > img {
+    width: 80%;
+}
