@@ -1,0 +1,105 @@
+body {
+    background-color: gray;
+    background-image: url("./images/pattern.png");
+    background-size: 100px;
+
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+}
+
+.bookcover {
+    background-color: #E8D9FF;
+    border-radius: 9px;
+    border: 1px solid #D1B2FF;
+
+    width: 960px;
+    height: 540px;
+
+    margin: 100px auto;
+
+    position: relative;
+}
+
+.bookdot {
+    border: dashed white;
+    position: absolute;
+    border-radius: 9px;
+
+    top: 10px;
+    left: 10px;
+    right: 10px;
+    bottom: 10px;
+}
+
+.page {
+    border: solid white;
+    border-radius: 9px;
+    position: absolute;
+
+    background-color: lightgray;
+
+    top: 10px;
+    left: 10px;
+    right: 10px;
+    bottom: 10px;
+}
+
+.container {
+    display: flex;
+    padding: 9px;
+}
+
+.box-row1 {
+    flex: 0.4;
+    flex-direction: column;
+}
+
+.box-row2 {
+    flex: 1;
+    flex-direction: column;
+}
+
+.box-row3 {
+    flex: 1;
+}
+
+.box-col1 {
+    display: flex;
+    flex: 0.1;
+}
+
+.box-col2 {
+    flex: 1;
+    border: 2px solid white;
+    border-radius: 9px;
+    margin-right: 5px;
+
+    background-color: white;
+    height: 410px;
+}
+
+.menu {
+    flex: 0.2;
+    border: 1px solid black;
+}
+
+.red {
+    color: red;
+}
+
+.hompinfo {
+    font-size: 13px;
+    text-align: center;
+    margin-left: 25px;
+}
+
+.homptitles {
+    font-size: 13px;
+}
+
+.urls {
+    font-size: 13px;
+}

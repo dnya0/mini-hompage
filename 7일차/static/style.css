@@ -1,0 +1,216 @@
+@font-face {
+    font-family: 'GilbeotRainbow';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2112@1.0/GilbeotRainbow.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'OTWelcomeRA';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2110@1.0/OTWelcomeRA.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'KyoboHandwriting2020A';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2112@1.0/KyoboHandwriting2020A.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    background-color: gray;
+    background-image: url("./images/pattern.png");
+    background-size: 100px;
+
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+}
+
+.bookcover {
+    background-color: #E8D9FF;
+    border-radius: 9px;
+    border: 1px solid #D1B2FF;
+
+    width: 960px;
+    height: 540px;
+
+    margin: 100px auto;
+
+    position: relative;
+}
+
+.bookdot {
+    border: dashed white;
+    position: absolute;
+    border-radius: 9px;
+
+    top: 10px;
+    left: 10px;
+    right: 10px;
+    bottom: 10px;
+}
+
+.page {
+    border: solid white;
+    border-radius: 9px;
+    position: absolute;
+
+    background-color: lightgray;
+
+    top: 10px;
+    left: 10px;
+    right: 10px;
+    bottom: 10px;
+}
+
+.container {
+    display: flex;
+    padding: 9px;
+}
+
+.box-row1 {
+    flex: 0.4;
+    flex-direction: column;
+}
+
+.box-row2 {
+    flex: 1;
+    flex-direction: column;
+}
+
+.box-row3 {
+    flex: 1;
+}
+
+.box-col1 {
+    display: flex;
+    flex: 0.1;
+}
+
+.box-col2 {
+    flex: 5;
+    border: 2px solid white;
+    border-radius: 9px;
+    margin-right: 5px;
+
+    background-color: white;
+    height: 420px;
+}
+
+.menu {
+    flex: 0.2;
+    border: 1px solid black;
+}
+
+.red {
+    color: red;
+}
+
+.hompinfo {
+    font-size: 13px;
+    text-align: center;
+    margin-left: 25px;
+}
+
+.homptitles {
+    font-size: 13px;
+}
+
+.urls {
+    font-size: 13px;
+}
+
+.profiles {
+    display: flex;
+    flex-direction: column;
+}
+
+.profiles-image {
+    width: 180px;
+    height: 180px;
+    margin: 10px;
+    border-radius: 9px;
+}
+
+.profiles-p {
+    font-family: 'KyoboHandwriting2020A';
+    font-size: 12px;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.news {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 12px;
+    padding-right: 12px;
+}
+
+.titles {
+    display: flex;
+    font-size: 25px;
+    font-family: 'GilbeotRainbow';
+    color: #D1B2FF;
+
+    padding-top: 9px;
+    border-bottom: 1px solid black;
+}
+
+.news-contents {
+    display: flex;
+}
+
+.news-writings {
+    flex: 1;
+    flex-direction: column;
+    justify-content: center;
+}
+.news-info {
+    flex: 1;
+    display: flex;
+    padding-top: 10px;
+    padding-bottom: 3px;
+
+    font-family: 'OTWelcomeRA';
+    font-size: 10px;
+    color: #4C4C4C;
+    border-bottom: 2px dotted #bbb;
+}
+
+.category-photo {
+    border-radius: 7px;
+    border: 1px solid rgb(255, 87, 115);
+    background-color: rgb(255, 87, 115);
+    color: white;
+    padding-top: 7px;
+    padding-left: 4px;
+    padding-right: 4px;
+    padding-bottom: 4px;
+    font-size: 10px;
+}
+
+.category-write {
+    border-radius: 7px;
+    border: 1px solid #6799FF;
+    background-color: #6799FF;
+    color: white;
+    padding-top: 7px;
+    padding-left: 4px;
+    padding-right: 4px;
+    padding-bottom: 4px;
+    font-size: 10px;
+}
+
+.news-write {
+    flex-direction: column;
+    justify-content: center;
+
+    font-family: 'OTWelcomeRA';
+    font-size: 10px;
+    padding-top: 10px;
+    padding-bottom: 3px;
+}

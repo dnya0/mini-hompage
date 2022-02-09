@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Sunflower:wght@300&display=swap');
+@font-face {
+    font-family: 'YdestreetB';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2110@1.0/YdestreetB.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'KyoboHandwriting2020A';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2112@1.0/KyoboHandwriting2020A.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'OTWelcomeRA';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2110@1.0/OTWelcomeRA.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+h1 {
+    font-family: 'YdestreetB';
+}
+
+h2 {
+    font-family: 'Sunflower', sans-serif;
+}
+
+table {
+    font-family: 'KyoboHandwriting2020A';
+}
+
+p {
+    font-family: 'OTWelcomeRA';
+}
+
+hr {
+    border-top: 1px solid #bbb;
+}
+
+.table {
+    border: 1px solid black;
+    border-collapse: collapse;
+    border-spacing: 20px 10px;
+}
+
+span {
+    color: #4374D9;
+}
