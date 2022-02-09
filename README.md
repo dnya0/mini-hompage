@@ -36,6 +36,10 @@
   </tr>
 </table>
 
-<h2>활동 사진</h2>
+<h2>실행결과</h2>
 
+![홈페이지 사진](./_image/homp_image.png)
 
+<h2>2022 모각코 웹 HTML + CSS 심화 1월과정 수료증</h2>
+
+![수료증 사진](./_image/mogakco.png)
