@@ -38,7 +38,11 @@
 
 <h2>실행결과</h2>
 
-![홈페이지 사진](./_image/homp_image.png)
+
+주소 또는 사진을 클릭하면 홈페이지로 이동합니다.
+주소: https://nadudan.github.io/mini-hompage/home.html
+
+<a href="https://nadudan.github.io/mini-hompage/home.html">![홈페이지 사진](./_image/homp_image.png)</a>
 
 <h2>2022 모각코 웹 HTML + CSS 심화 1월과정 수료증</h2>
 
