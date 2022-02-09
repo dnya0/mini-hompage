@@ -36,6 +36,10 @@
   </tr>
 </table>
 
+
+<h2>날짜별 코드</h2>
+https://github.com/NadudAn/mini-hompage-log/
+
 <h2>실행결과</h2>
 
 
