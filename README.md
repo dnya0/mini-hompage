@@ -1,5 +1,7 @@
 <h1>나만의 미니 홈페이지 만들기</h1>
 
+> [주차별 코드 보기](https://github.com/ahma0/mini-hompage/tree/main/Log)
+
 <table> 
   <tr>
     <td>프로젝트명</td>
@@ -36,9 +38,6 @@
   </tr>
 </table>
 
-
-<h2>날짜별 코드</h2>
-https://github.com/NadudAn/mini-hompage-log/
 
 <h2>실행결과</h2>
 
