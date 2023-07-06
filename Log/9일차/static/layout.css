@@ -1,0 +1,176 @@
+body {
+    background-color: gray;
+    background-image: url("./images/pattern.png");
+    background-size: 100px;
+
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+}
+
+.bookcover {
+    background-color: #E8D9FF;
+    border-radius: 9px;
+    border: 1px solid #D1B2FF;
+
+    width: 960px;
+    height: 540px;
+
+    margin: 100px auto;
+
+    position: relative;
+}
+
+.bookdot {
+    border: dashed white;
+    position: absolute;
+    border-radius: 9px;
+
+    top: 10px;
+    left: 10px;
+    right: 10px;
+    bottom: 10px;
+}
+
+.page {
+    border: solid white;
+    border-radius: 9px;
+    position: absolute;
+
+    background-color: #EAEAEA;
+
+    top: 10px;
+    left: 10px;
+    right: 10px;
+    bottom: 10px;
+}
+
+.container {
+    display: flex;
+    padding: 5px;
+}
+
+.box-row1 {
+    flex: 0.4;
+    flex-direction: column;
+}
+
+.box-row2 {
+    flex: 1;
+    flex-direction: column;
+}
+
+.box-row3 {
+    flex: 1;
+}
+
+.box-col1 {
+    display: flex;
+    flex: 0.1;
+}
+
+.box-col2 {
+    flex: 5;
+    border: 2px solid white;
+    border-radius: 9px;
+    margin-right: 5px;
+
+    background-color: white;
+    height: 445px;
+}
+
+.box-col3 {
+    flex: 5;
+    border: 2px solid white;
+    border-radius: 9px;
+
+    background-color: white;
+    height: 445px;
+}
+
+.menu {
+    flex: 0.1;
+    flex-direction: column;
+    padding-top: 60px;
+}
+
+.menu button {
+    width: 80px;
+    height: 30px;
+    margin-top: 8px;
+    border: white;
+    border-radius: 0 9px 9px 0;
+    color: white;
+    font-family: 'OTWelcomeRA';
+    padding-top: 5px;
+    background-color: #D1B2FF;
+}
+
+.menu button:hover {
+    background-color: skyblue;
+    color: blanchedalmond;
+} 
+
+.red {
+    color: red;
+}
+
+.hompinfo {
+    font-size: 13px;
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 25px;
+}
+
+.homptitles {
+    font-size: 13px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.urls {
+    font-size: 13px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.profiles {
+    display: flex;
+    flex-direction: column;
+}
+
+.profiles-image {
+    flex: 1;
+    width: 180px;
+    height: 180px;
+    margin: 10px;
+    border-radius: 9px;
+}
+
+.profiles-p {
+    flex: 1;
+    font-family: 'KyoboHandwriting2020A';
+    font-size: 12px;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.profiles-option {
+    flex: 0.1;
+    font-family: 'KyoboHandwriting2020A';
+    font-size: 12px;
+    margin-top: 60px;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.dropdown {
+    font-family: 'OTWelcomeRA';
+    font-size: 12px;
+    padding: 5px;
+    margin-left: 30px;
+    margin-right: 30px;
+}

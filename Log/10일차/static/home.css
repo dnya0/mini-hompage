@@ -1,0 +1,72 @@
+.titles {
+    display: flex;
+    font-size: 25px;
+    font-family: 'GilbeotRainbow';
+    color: #D1B2FF;
+
+    padding-top: 9px;
+    border-bottom: 1px solid black;
+}
+
+.news-contents {
+    display: flex;
+}
+
+.news-writings {
+    flex: 1;
+    flex-direction: column;
+    justify-content: center;
+}
+.news-info {
+    flex: 1;
+    display: flex;
+    padding-top: 10px;
+    padding-bottom: 3px;
+
+    font-family: 'OTWelcomeRA';
+    font-size: 10px;
+    color: #4C4C4C;
+    border-bottom: 2px dotted #bbb;
+}
+
+.category-photo {
+    border-radius: 7px;
+    border: 1px solid rgb(255, 87, 115);
+    background-color: rgb(255, 87, 115);
+    color: white;
+    padding-top: 7px;
+    padding-left: 4px;
+    padding-right: 4px;
+    padding-bottom: 4px;
+    font-size: 10px;
+}
+
+.category-write {
+    border-radius: 7px;
+    border: 1px solid #6799FF;
+    background-color: #6799FF;
+    color: white;
+    padding-top: 7px;
+    padding-left: 4px;
+    padding-right: 4px;
+    padding-bottom: 4px;
+    font-size: 10px;
+}
+
+.news-write {
+    flex-direction: column;
+    justify-content: center;
+
+    font-family: 'OTWelcomeRA';
+    font-size: 10px;
+    padding-top: 10px;
+    padding-bottom: 3px;
+}
+
+.miniroom {
+    flex: 1;
+    height: 250px;
+    margin: 10px;
+    border-radius: 9px;
+    
+}
