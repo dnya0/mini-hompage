@@ -1,6 +1,6 @@
 <h1>나만의 미니 홈페이지 만들기</h1>
 
-> [주차별 코드 보기](https://github.com/ahma0/mini-hompage/tree/main/Log)
+> [주차별 코드 보기](https://github.com/dnya0/mini-hompage/tree/main/Log)
 
 <table> 
   <tr>
@@ -44,7 +44,7 @@
 
 주소 또는 사진을 클릭하면 홈페이지로 이동합니다.
 
-<a href="https://nadudan.github.io/mini-hompage/home.html">![홈페이지 사진](./_image/homp_image.png)</a>
+<a href="https://dnya0.github.io/mini-hompage/home.html">![홈페이지 사진](./_image/homp_image.png)</a>
 
 <h2>2022 모각코 웹 HTML + CSS 심화 1월과정 수료증</h2>
 
